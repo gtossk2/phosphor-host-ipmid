@@ -323,3 +323,6 @@ install_subdir(
   install_dir: get_option('includedir'),
   strip_directory: false,
   exclude_files: '*.cpp')
+
+# HW Transport
+subdir('transport')
