@@ -316,6 +316,7 @@ endif
 
 if not get_option('tests').disabled()
   subdir('test')
+  subdir('transport/serialbridge')
 endif
 
 install_subdir(
